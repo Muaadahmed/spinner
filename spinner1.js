@@ -1,5 +1,3 @@
-// process.stdout.write('hello from spinner1.js... \rheyyy\n'); 
-
 setTimeout(() => {
   process.stdout.write('\r|   ');
 }, 100);
@@ -14,7 +12,7 @@ setTimeout(() => {
 
 setTimeout(() => {
   // Need to escape the backslash since it's a special character.
-  process.stdout.write('\r\\   '); 
+  process.stdout.write('\r\\   ');
 }, 700);
 
 setTimeout(() => {
@@ -31,9 +29,9 @@ setTimeout(() => {
 
 setTimeout(() => {
   // Need to escape the backslash since it's a special character.
-  process.stdout.write('\r\\   '); 
+  process.stdout.write('\r\\   ');
 }, 1500);
 
 setTimeout(() => {
-  process.stdout.write('\r|   \n'); 
+  process.stdout.write('\r|   \n');
 }, 1700);
